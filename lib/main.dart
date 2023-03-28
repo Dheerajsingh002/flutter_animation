@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animation/AnimateCon.dart';
 import 'package:flutter_animation/AnimateOpo.dart';
+import 'package:flutter_animation/BottomNavigationBar.dart';
 import 'package:flutter_animation/Cliprrct.dart';
 import 'package:flutter_animation/CrossFade.dart';
 import 'package:flutter_animation/Gradients.dart';
@@ -9,6 +10,8 @@ import 'package:flutter_animation/ListWheel.dart';
 import 'package:flutter_animation/Mapping.dart';
 import 'package:flutter_animation/RippleEffect.dart';
 import 'package:flutter_animation/SharedPreferences.dart';
+import 'package:flutter_animation/SplashScree.dart';
+import 'package:flutter_animation/TabView.dart';
 import 'package:flutter_animation/TweenAnimation.dart';
 
 void main() {
@@ -36,7 +39,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: Shareds(),
+      home: BottomNavigation(),
     );
   }
 }
