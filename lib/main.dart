@@ -13,6 +13,7 @@ import 'package:flutter_animation/SharedPreferences.dart';
 import 'package:flutter_animation/SplashScree.dart';
 import 'package:flutter_animation/TabView.dart';
 import 'package:flutter_animation/TweenAnimation.dart';
+import 'package:flutter_animation/Webview.dart';
 
 void main() {
   runApp(const MyApp());
@@ -39,7 +40,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: BottomNavigation(),
+      home: WebView(),
     );
   }
 }
